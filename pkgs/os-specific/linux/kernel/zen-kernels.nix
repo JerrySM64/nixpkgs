@@ -139,7 +139,6 @@ let
           branch = lib.versions.majorMinor version + "/master";
           maintainers = with lib.maintainers; [
             thiagokokada
-            jerrysm64
           ];
           description =
             "Built using the best configuration and kernel sources for desktop, multimedia, and gaming workloads."
